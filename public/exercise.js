@@ -1,3 +1,13 @@
+// -----------------------------------------------------------------------------
+// Program:  exercise.js
+// Purpose:  Functions to display the exercise page
+// Input:    <none>   
+// -----------------------------------------------------------------------------
+// Author:   Provided
+// Date:     June 21, 2021
+// -----------------------------------------------------------------------------
+
+
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
 const resistanceForm = document.querySelector(".resistance-form");

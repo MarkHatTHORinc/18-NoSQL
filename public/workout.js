@@ -1,3 +1,13 @@
+// -----------------------------------------------------------------------------
+// Program:  workout.js
+// Purpose:  Get the workout data.
+// Input:    <none>   
+// -----------------------------------------------------------------------------
+// Author:   Provided
+// Date:     June 21, 2021
+// -----------------------------------------------------------------------------
+
+
 async function initWorkout() {
   const lastWorkout = await API.getLastWorkout();
   console.log("Last workout:", lastWorkout);
